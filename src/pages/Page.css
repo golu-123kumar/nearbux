@@ -1,17 +1,10 @@
-/* Add this CSS to a new file named QRScanner.css */
-
+/* Overall page styles */
 .scanner-page {
   --background: #f5f5f5;
 }
 
 .scanner-header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} 
-
-.scanner-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #333;
 }
 
 .scanner-container {
@@ -30,8 +23,8 @@
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  margin-bottom: 130px;
-  border: 2px solid green;
+  margin-bottom: 20px;
+  border: 2px solid #4CAF50; /* Adjust border color to match your design */
 }
 
 #reader {
@@ -39,7 +32,7 @@
   height: 100%;
   background-image: url("s.webp");
   background-size: cover;
- 
+  background-position: center;
 }
 
 #reader video {
@@ -50,6 +43,8 @@
   width: 100%;
   max-width: 500px;
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .scan-button {
@@ -59,6 +54,10 @@
   font-size: 1.1rem;
   font-weight: 500;
   transition: all 0.2s ease;
+}
+
+.scan-button:active {
+  transform: scale(0.98);
 }
 
 .result-container {
@@ -80,14 +79,33 @@
 .result-text {
   color: #666;
   font-size: 1rem;
-  word-break: break-all;
+  word-break: break-word;
   margin-bottom: 15px;
 }
 
 .clear-button {
   margin-top: 10px;
   height: 40px;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
-.d{
+
+.clear-button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Custom background color */
+.d {
   --background: #22609794;
+  background-color: var(--background);
+}
+
+.scan-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.scan-button:disabled {
+  background-color: #ccc;
+  color: #fff;
 }

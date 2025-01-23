@@ -4,13 +4,10 @@ import {
   IonContent,
   IonHeader,
   IonPage,
-  IonTitle,
-  IonToolbar,
   IonButton,
-  IonText,
-  
 } from '@ionic/react';
-import './Page.css';  
+import './Page.css';
+
 const Page: React.FC = () => {
   const [result, setResult] = useState('');
   const [scanning, setScanning] = useState(false);
@@ -54,32 +51,32 @@ const Page: React.FC = () => {
   return (
     <IonPage className="scanner-page">
       <IonHeader className="scanner-header">
-        <IonButton id="btn" routerLink='/Page'>QR SCanner</IonButton>
+        <IonButton id="btn" routerLink='/Page'>QR Scanner</IonButton>
         <IonButton routerLink='Invoice'>Upload Invoice</IonButton>
       </IonHeader>
 
-      <IonContent  fullscreen className='d'>
+      <IonContent fullscreen className='d'>
         <div className="scanner-container">
           <div className="reader-container">
             <div id="reader">
-              <img src="s.webp" alt="" />
+              {/* The camera feed or placeholder image */}
             </div>
           </div>
 
           <div className="button-container">
             {!scanning ? (
-              <IonButton 
+              <IonButton
                 className="scan-button"
-                expand="block" 
+                expand="block"
                 onClick={startScanning}
               >
                 Start Scanning
               </IonButton>
             ) : (
-              <IonButton 
+              <IonButton
                 className="scan-button"
-                expand="block" 
-                color="danger" 
+                expand="block"
+                color="danger"
                 onClick={stopScanning}
               >
                 Stop Scanning
@@ -91,9 +88,9 @@ const Page: React.FC = () => {
             <div className="result-container">
               <h2 className="result-title">Scanned Result</h2>
               <p className="result-text">{result}</p>
-              <IonButton 
+              <IonButton
                 className="clear-button"
-                color="medium" 
+                color="medium"
                 onClick={() => setResult('')}
               >
                 Clear Result
