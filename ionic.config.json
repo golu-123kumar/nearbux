@@ -1,0 +1,7 @@
+{
+  "name": "NearBux",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

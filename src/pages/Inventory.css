@@ -1,0 +1,164 @@
+.screen{
+    --background:#CDDEEC;
+}
+.input-container1 {
+    position: relative;
+    width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+   
+  }
+  
+  .input-box1 {
+    flex: 1;
+    padding: 10px 40px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+    align-items: center;
+    text-align:center;
+   
+  }
+  
+  .input-icon-left1 {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .input-icon-right1 {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #555;
+  }
+  .t{
+    color: blue;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .btn{
+    width: 600px;
+   margin-left: 200px;
+  }
+  .para
+  {
+    height: 50px;
+  }
+  .para2
+  {
+    height: 20px;
+  }
+  .h{
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .filter {
+    display: flex;
+    flex-direction: row; 
+    gap: 10px; 
+    margin-left: 20px;
+  }
+  
+  .aa, .bb, .c, .d, .e {
+    
+    padding: 10px;
+    
+    text-align: center; 
+    height: 200px;
+    width: 200px;
+  }
+  
+  
+  .footer-icon2 {
+    font-size: 60px;
+    color: #4a4ac8;
+    margin-top: 10px;
+    
+    float: inline-start;
+  }
+  .footer-text2 {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    margin-top: 30px;
+    margin-right: 90px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .circles{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-filter {
+    text-align: center;
+    
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    
+  }
+  
+  .filter-label {
+    font-weight: bold;
+    color: #1e1e1e;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .filter-button {
+    --background: #f4f4f4;
+    --background-activated: blue;
+    --border-radius: 20px;
+  }
+  
+  .filter-button.ion-activated {
+    --background: #c08181; 
+  }
+  .total-items-section {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .total-items-label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .total-items-input {
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+   
+  }
+  
+  
+  
+  
+ 
+  

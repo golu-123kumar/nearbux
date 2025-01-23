@@ -1,0 +1,85 @@
+
+.signup-page {
+   --background:#CDDEEC;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .center {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro h1 {
+    color: #4a4a4a;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .intro p {
+    color: #666;
+    font-size: 1em;
+  }
+  
+  .input-section {
+    margin-top: 20px;
+  }
+  
+  .input-section h2 {
+    margin-bottom: 10px;
+    color: #4a4a4a;
+  }
+  
+  .terms-conditions {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .terms-conditions label {
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .signup-button {
+    background-color: #ff6f61;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .signup-button:disabled {
+    background-color: #ccc;
+  }
+  
+  .google-signup {
+    background-color: #4285f4;
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .google-logo {
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login-link a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  
